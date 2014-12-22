@@ -1,0 +1,103 @@
+
+/* General */
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    /* font-weight:500; */
+    background: #fff;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    /* added below */
+    line-height: 1.4667;
+}
+
+body > header,
+body > section,
+body > footer {
+    display: block;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: -.05em; /* took out negative */
+    /* added below */
+    line-height: 1.4667;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Open Sans', sans-serif; /* added this one later */
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+a {
+    color: #5793b8;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+header {
+    background-color: #5793b8;
+    color: #fff;
+}
+
+p, pre {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+.social a img {
+    opacity: .60; /* edited */
+}
+
+.social a img:hover {
+    opacity: 1.0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.small p {
+    margin: 0;
+}
+
+/*
+.pad-top-100 {
+    margin-top: 100px;
+}
+*/
+
+@media (min-width: 960px){
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 2.6em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+}
