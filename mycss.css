@@ -1,0 +1,257 @@
+
+/* BACKGROUND IMAGES */
+body {
+
+
+}
+
+/* COLORS */
+
+/* Body */
+body,
+#main-content .audio .audio-player ol li .length {
+    background-color: #ffffff;
+}
+#main-content .horizontal-gallery .horizontal-gallery-container .large-gallery li,
+#main-content #store-cart ul li,
+#main-content #store-cart #cart-empty-message,
+#main-content #blog #filter {
+    border-color: #ffffff;
+}
+.footer-widgets-container .widgets .widget.audio ol li .controls .play-pause,
+#main-content #store-detail .product-specifics .add-container,
+#main-content #store-detail .product-specifics .add-container .add-to-cart,
+#main-content #store-cart .cart-totals .cart-actions .checkout,
+#main-content .audio .audio-player ol li .download,
+#main-content .audio .audio-player ol li .controls .play-pause,
+#main-content .category-dropdown .select-box,
+#main-content .events .see-details,
+
+    /* Main Content */
+#main-content .content-editor,
+#main-content #blog > ul > li,
+#main-content .events ul li,
+#main-content .large-gallery li,
+#main-content .horizontal-gallery #slider .slider-track-x,
+#main-content .slideshow-thumbnails-gallery .thumbnails,
+#main-content .slideshow-gallery .thumbnails,
+#main-content .audio .audio-player ol li,
+#main-content #store-detail,
+#main-content #store-cart ul li,
+#main-content #store-cart .cart-totals,
+#main-content .large-gallery li .media-container,
+#main-content #store-cart #cart-empty-message,
+#main-content #store-listing .categories,
+#main-content .index .pagination,
+#main-content #blog #filter,
+#main-content .listing ul.listing-list li,
+.content-wrapper .menu li {
+    background-color: #f7f7f7;
+}
+
+/* Site Titles */
+#site-header .logo h1,
+#site-header .logo h1 a,
+#site-header .logo h2 {
+    color: #222222;
+}
+
+/* Primary Font Color */
+body {
+    color: #222222;
+}
+#main-content .horizontal-gallery #handle,
+.footer-widgets-container .widgets .widget.audio ol li .length .progress,
+#main-content .audio .audio-player ol li .length .progress,
+#main-content .audio .audio-player ol li .controls .play-pause.pause,
+.footer-widgets-container .widgets .widget.audio ol li .controls .play-pause.pause,
+#main-content #store-detail .product-specifics .add-to-cart:hover,
+#main-content #store-cart .cart-totals .cart-actions .checkout:hover,
+#main-content .audio .audio-player ol li .download:hover,
+.footer-widgets-container .widgets .widget.audio ol li .length .load:hover,
+#main-content .audio .audio-player ol li .length .load:hover,
+#main-content .audio .audio-player ol li .controls .play-pause:hover,
+#main-content .category-dropdown .select-box:hover,
+.footer-widgets-container .widgets .widget.audio ol li .controls .play-pause:hover,
+#main-content .events .see-details:hover {
+    background-color: #222222;
+}
+
+/* Secondary Font Color */
+.footer-widgets-container #site-footer,
+#main-content .events .date .mon,
+.footer-widgets-container .widgets .widget .date,
+.footer-widgets-container .widgets .widget .date a,
+#main-content .audio .audio-player ol li .song-info .time,
+#main-content #blog > ul > li footer .tags-categories ul li,
+#main-content #blog > ul > li footer .tags-categories ul li a,
+.footer-widgets-container .widgets .widget.audio ol li .controls .previous,
+.footer-widgets-container .widgets .widget.audio ol li .controls .next {
+    color: #999999;
+}
+#main-content #store-detail .product-specifics .add-to-cart,
+#main-content #store-detail .product-specifics .options,
+#main-content #store-cart .cart-totals .cart-actions .checkout,
+#main-content .audio .audio-player ol li .download,
+.footer-widgets-container .widgets .widget.audio ol li .length .load,
+#main-content .audio .audio-player ol li .length .load,
+#main-content .audio .audio-player ol li .controls .play-pause,
+#main-content .category-dropdown .select-box,
+.footer-widgets-container .widgets .widget.audio ol li .controls .play-pause,
+#main-content .events .see-details,
+
+    /* Page Titles */
+#main-content #page-title {
+    color: #222222;
+}
+
+/* Links */
+a {
+    color: #427fed;
+}
+
+/* Links Hover */
+a:hover,
+#main-content .slideshow-gallery .navigation .navigation-controls .previous:hover,
+#main-content .slideshow-thumbnails-gallery .navigation .navigation-controls .previous:hover,
+#main-content .slideshow-gallery .navigation .navigation-controls .next:hover,
+#main-content .slideshow-thumbnails-gallery .navigation .navigation-controls .next:hover,
+#main-content .vertical-gallery .large-gallery li .details h2 a:hover,
+#main-content .horizontal-gallery .large-gallery li .details h2 a:hover,
+#main-content .slideshow-gallery .large-gallery li .details h2 a:hover,
+#main-content .slideshow-thumbnails-gallery .large-gallery li .details h2 a:hover,
+#main-content #blog > ul > li footer .tags-categories ul li a:hover,
+#main-content #blog #filter .blog-crumbs .tag-filtered em,
+#main-content .index .pagination li.current a,
+#main-content #store-listing .categories li.selected a,
+#site-header nav#main-nav ul li.current-section span,
+#site-header nav#main-nav ul li.current a {
+    color: #ff8533;
+}
+
+/* Borders */
+.footer-widgets-container,
+.footer-widgets-container #site-footer,
+.footer-widgets-container .widgets .widget,
+.footer-widgets-container .widgets .widget.rss ul li,
+.footer-widgets-container .widgets .widget.blog ul li,
+.footer-widgets-container .widgets .widget.lastfm ul li,
+#main-content #blog > ul > li footer .tags-categories,
+#main-content #blog > ul > li footer time,
+#main-content #blog .sharing,
+#main-content .index li,
+#main-content #blog > ul > li footer .tumblr-sharing {
+    border-color: #e0e0e0;
+}
+.footer-widgets-container .widgets .widget.audio ol li .length {
+    background-color: #e0e0e0;
+}
+
+/* Widget Titles */
+.footer-widgets-container .widgets .widget-title {
+    color: #222222;
+}
+
+
+
+
+/* FONT SIZES */
+
+/* FONT SIZES */
+body {
+    font-size: 100%;
+}
+
+/**** site title font size *****/
+.logo {
+    font-size: 100%;
+}
+
+/**** nav font size *****/
+#site-header nav#main-nav {
+    font-size: 100%;
+}
+
+/**** page title font size *****/
+#main-content #page-title {
+    font-size: 180%;
+}
+
+/**** content font size *****/
+#main-content .content-editor {
+    font-size: 90%;
+}
+
+
+
+
+@media only screen and (min-width: 700px) {
+
+    #site-header nav#main-nav #menu li.section:hover span,
+    #site-header nav#main-nav #menu li.section ul li {
+        background-color: #222222;
+    }
+
+    #site-header nav#main-nav #menu li a,
+    #site-header nav#main-nav #menu li,
+    #site-header nav#main-nav #menu li.section span,
+    #site-header nav#main-nav #menu li.section ul li,
+    #main-content .contact .contact-item.name,
+    #main-content .contact .contact-item .type {
+        color: #222222;
+    }
+
+    #site-header nav#main-nav #menu li.section:hover span,
+    #site-header nav#main-nav #menu li.section ul li a:hover,
+    #site-header nav#main-nav #menu li.section ul li.current a {
+        color: #ffffff;
+    }
+
+    #site-header nav#main-nav #menu li.section ul li a {
+        color: #777777;
+    }
+
+    #site-header nav#main-nav #menu li a,
+    #site-header nav#main-nav #menu li.section span {
+        border-color: #e0e0e0;
+    }
+
+    #site-header nav#main-nav #menu li.section:hover span,
+    #site-header nav#main-nav #menu li.section ul li a {
+        border-color: #2e2e2e;
+    }
+
+    #main-content .thumbnails li a:hover {
+        background-color: #222222;
+    }
+}
+
+/* IE */
+.lt-ie9 #site-header nav#main-nav #menu li.section:hover span,
+.lt-ie9 #site-header nav#main-nav #menu li.section ul li {
+    background-color: #222222;
+}
+
+.lt-ie9 #site-header nav#main-nav #menu li.section:hover span,
+.lt-ie9 #site-header nav#main-nav #menu li.section ul li a:hover,
+.lt-ie9 #site-header nav#main-nav #menu li.section ul li.current a {
+    color: #ffffff;
+}
+
+.lt-ie9 #site-header nav#main-nav #menu li.section ul li a {
+    color: #777777;
+}
+
+.lt-ie9 #site-header nav#main-nav #menu li a,
+.lt-ie9 #site-header nav#main-nav #menu li.section span {
+    border-color: #e0e0e0;
+}
+
+.lt-ie9 #site-header nav#main-nav #menu li.section:hover span,
+.lt-ie9 #site-header nav#main-nav #menu li.section ul li a {
+    border-color: #2e2e2e;
+}
+
+.lt-ie9 #main-content .thumbnails li a:hover {
+    background-color: #222222;
+}

@@ -20,8 +20,10 @@
 }
 .grid .unit {
     float: left;
-    width: 100%;
+    width: 20%;
     padding: 10px;
+    margin-top:100px;
+    margin-bottom: auto;
 }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters. */
@@ -43,9 +45,9 @@
 /* Wrapping at a maximum width is optional */
 .wrap .grid,
 .grid.wrap {
-    max-width: 978px;
-    margin: 0 auto;
-    height: 40%;
+    max-width: 400px;
+    margin: 30 30 30 30;
+    height: 30%;
 }
 
 /* Width classes also have shorthand versions numbered as fractions
