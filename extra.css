@@ -1,0 +1,147 @@
+/**
+* CSS
+*
+* @version 1.0
+* @author Vaska
+* @author Gregory Cadar
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 11px;
+    font-family:Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none;
+    color: #000;
+}
+a:active { text-decoration: none;
+    color: #000;
+}
+a:visited { text-decoration: none; color: #000; }
+a:hover { text-decoration: none;
+    color:#999;
+}
+
+a img { border: none; }
+
+#line {
+    margin:20px 0 0 0;
+    padding:10px 0 0 0;
+    border-top: 1px solid;
+    border-color: #999;
+    width:450px;}
+
+#drop {
+    margin:51px 0 0 0;
+    padding:0 0 0 0;
+    border-top: 0;
+    border-color: #999;
+    width:450px;}
+
+#news {
+    margin:30px 0 10px 0;
+    padding:0 0 0 0;
+    border-bottom: 1px solid;
+    font-size: 9px;
+    color: #999;
+    font-family:Helvetica, Arial, sans-serif;
+    border-color: #999;
+    width:450px;}
+
+#news1 {
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    border-bottom: 1px solid;
+    font-size: 9px;
+    color: #999;
+    font-family:Helvetica, Arial, sans-serif;
+    border-color: #999;
+    width:450px;}
+
+
+#menu {
+    width: 170px;
+    /**overflow: auto;
+    top: 0;
+    bottom: 0;
+	left: 0;**/
+    position: fixed;
+    padding: 0px 0px 0px 0px;
+    /**height: auto;**/
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    left: 0;
+    margin: 0 40px 20px;
+    top: 5px;
+    bottom: 30px;
+}
+
+#menu ul {
+    line-height:17px;
+    list-style: none;
+    padding-top: 6px;
+    margin: 20px 15px 20px 1px;
+}
+
+#menu ul li.section-title {
+    color: #999;
+    margin-bottom: 5px;
+    width: 140px;
+    background-color: #fff;
+    font-size: 11px;
+    font-family:Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border-style: none;
+    border-bottom-style: none;
+}
+
+#content {
+    height: 100%;
+    top: 0;
+    margin: 6px 0 0 260px;
+    background-color: #fff;
+    line-height:17px;
+}
+
+.container {
+    padding: 40px 5px 25px;
+}
+
+#content p { width: 400px; margin-bottom: 9px; }
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h2#logo {
+    margin-bottom: 5px;
+}
+
+h2#logo a {
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 400px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }
