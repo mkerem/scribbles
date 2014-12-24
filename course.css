@@ -1,0 +1,151 @@
+/* body, td, th { font: 12pt Times New Roman, Serif; color: black; }
+h1           { font: 24pt Verdana, Sans-Serif; }
+h2           { font: 14pt Verdana, Sans-Serif; }
+h3           { font: 12pt Verdana, Sans-Serif; } */
+hr           { color: silver; height: 3px; }
+body         { background: white; }
+
+.headline    { font-size: 11pt; }
+td.design    { background-color: silver; font-size: 1pt; width: 3px; }
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+#banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: no-repeat top left;
+    margin: 10px;
+    width: 140px; /* picture width */
+    height: 137px; /* picture height */
+}
+#header {
+    margin-left: 140px; /* picture width */
+    min-height: 137px; /* picture height */
+    position: relative;
+ /*   border-left: 3px solid #bbb; */
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 660px;
+}
+#header #ecelogo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#nav {
+    position: fixed;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+    text-align: right;
+    width: 9em;
+}
+#nav a {
+    display: block;
+   /* padding: 0.5em; */
+    border: 1px solid #fff;
+    margin: 0;
+    margin-right: 2px;
+}
+#nav a.selected {
+    /* background: #eee; */
+}
+#nav a:hover {
+    text-decoration: none;
+}
+#nav a.good:hover {
+    background: #fff;
+}
+
+#content {
+    max-width: 600px;
+    padding: 0;
+    margin-left: 9em;
+    padding-left: 20px;
+   /* border-left: 3px solid #bbb; */
+}
+
+#abstract_box {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 100;
+    width: 40%;
+    background: #66a;
+    color: #fff;
+    overflow: auto;
+    padding: 1em;
+    margin: 0;
+    text-align: justify;
+    visibility: hidden;
+}
+
+.alist {
+    border-spacing: 4px;
+    width: 100%;
+}
+.alist th {
+    text-align: right;
+    padding-right: .5em;
+    width: 7em;
+}
+.alist td.heading {
+    border: 1px solid;
+}
+.alist td.indent1 {
+    background-color: #cde;
+}
+.alist td.indent2 {
+    border: 1px dashed;
+    padding-left: 2em;
+}
+.alist .empty {
+    height: 1.5em;
+}
+.alist .hltablerow:hover {
+    background: #eee;
+    cursor: default;
+}
+
+.alist2 {
+    border-spacing: 4px;
+    width: 100%;
+}
+.alist2 th {
+    text-align: right;
+    padding-right: .5em;
+    width: 20em;
+}
+.alist2 td.heading {
+    border: 1px solid;
+}
+.alist2 td.indent1 {
+    background-color: #cde;
+}
+.alist2 td.indent2 {
+    border: 1px dashed;
+    padding-left: 2em;
+}
+.alist2 .empty {
+    height: 1.5em;
+}
+.alist2 .hltablerow:hover {
+    background: #eee;
+    cursor: default;
+}
+
+#css-buttons2 { position: fixed; bottom: 0; left: 0; margin: 2px; }
+#css-buttons2 li { margin-left: 0; }
+
+/* hacks to get IE to screw up less than usual */
+* html #header { width: 450px; }
+* html #content { width: 500px; }
+* html #header { height: 140px; }
+* html #css-buttons2 { position: absolute; }
+* html #nav li { border: 1px solid #fff; }
