@@ -10,6 +10,13 @@
     <link rel="stylesheet" type="text/css" href="mycss.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+            $("#test").live("click", function(){
+                $("#content").load($("#testing").attr("href"));
+                return false;
+            });
+    </script>
 
 </head>
 
@@ -22,7 +29,7 @@
 </div>
 
 <ul id="nav">
-    <li><a class="good" href="prototypes.html">Prototypes</a></li>
+    <li><a class="good" id="test" href="testing.html">Prototypes</a></li>
     <li><a class="good" href="images.html">Images</a></li>
     <li><a class="good" href="writing.html">Writing</a></li>
     <li><a class="good" href="quotes.html">Quotes</a></li>
@@ -59,8 +66,6 @@
         <tr class="empty"><td></td></tr>
     </table>
 </div>
-
-
 
 </body>
 </html>
